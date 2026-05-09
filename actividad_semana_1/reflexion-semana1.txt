@@ -1,0 +1,12 @@
+nombre: Angel Ortiz
+fecha 19/04/2026
+ 
+La relación entre el uso responsable de la información en internet, la participación ciudadana y la organización técnica con herramientas como Git es muy directa y poderosa.
+
+El uso responsable de la información significa verificar fuentes, evitar la difusión de datos falsos y dar crédito a quien corresponde. Git y GitHub permiten exactamente eso: cada cambio queda registrado con autor, fecha y descripción (commit), por lo que se sabe quién modificó qué y cuándo.
+
+La participación ciudadana se fortalece porque GitHub es una plataforma abierta donde cualquiera puede clonar, proponer mejoras y colaborar en proyectos (open source). Así como los ciudadanos participan en una comunidad, los desarrolladores contribuyen a proyectos colectivos.
+
+Finalmente, la organización técnica del trabajo con Git nos da “seguros” (historial de versiones) para poder revertir errores sin perder todo. Esto nos permite trabajar en equipo de forma ordenada, documentada y ética, exactamente lo que se necesita para ser un buen ciudadano digital.
+
+En resumen, Git no solo organiza código: fomenta una cultura de responsabilidad, colaboración y transparencia que une la ciudadanía digital con el desarrollo técnico.
