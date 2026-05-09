@@ -1,0 +1,8 @@
+programadores para la paz
+Cordial saludo, en respuesta a la pregunta de la semana que dice: 
+¿Porque es importante para un desarrollador saber usar la terminal para navegar y organizar los archivos en un proyecto?
+mi opinión personal es:  que al momento de desarrollar un proyecto necesitamos ser eficiente y veloces, y esto lo logramos usando de manera correcta la terminal ya que podemos saltar de una carpeta a otra rápidamente con usar el comando cd, también podemos crear archivos y carpetas con una sola linea de código. 
+el uso de guit también se agiliza al momento de inicializar, hacer commit y hacer push es mas fácil desde la terminal.
+También es importante que el desarrollador sea organizado en los elementos que valla creando en el proyecto ya que ayuda a entender el código, mejora la navegación del proyecto y al momento de hacer navegación no se pierda tiempo innecesario buscando archivos.
+gracias por su atencion
+Ángel Ortiz.
