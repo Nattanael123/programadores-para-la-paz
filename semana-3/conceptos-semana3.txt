@@ -1,0 +1,13 @@
+angel david ortiz gaspar 
+explicacion de conceptos 
+la realizacion de esta actividad requiere exponer los siguientes conceptos
+1) repositorio
+    Este termino hace referencia a las carpetas de que componen un proyecto; en esta carpete se pueden guardar archivos que componen el proyecto como son archivos en formato javascrip, cc, html, json, .py, entre otros;
+    esta carpeta tiene particularidades y es que se le puede hacer una "fotografia" para guardar estatos y asi ayuda al programador poder  " romper cosas y reparar en caso se haya equivocado", tambien permite que muchas personas puedan colavorar en la creacion del proyecto.
+    no es una carpeta de escritorio normal, es una carpeta con propiedades orientadas a programacion.
+2) Commit 
+    es la fotografia que se le toma a un repositorio, esto no es una fotografia normal, es una propiedad que nos permite guardar el estado actual del proyecto.
+    esto me permite ir creando versiones y guardando sus estados, si mas a delande uno de estos cambios esta presentando un error ; entonces puedo regresar a la version anterior, en otro caso hipotetico; estoy haciendo un control de versiones, con esta herramienta puedo ver lo cambios realizados en cada Commit.
+3) push: es la accion que me permite actulizar y subir los cambios relizados en local, los empujo a la nube. para que demas personas puedan visualuzar mi trabajo o el proyecto.
+
+en cuanto a lo aprendido de esta acividad puedo concluir diciendo que : puedo crear un repositorio, agregar los archivos los cuales necesito y hacer commit de los mismos para guardar su estado, despues hago un push para respaldar mi proyecto en un gestor de versiones, y posteriormente mejorar mi codigo y continuo haciendo commit + comentario y push.

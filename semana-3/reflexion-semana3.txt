@@ -1,0 +1,13 @@
+git es la herramienta que me permite hacer control de las versiones de un proyecto,
+puedo controlar los aportes hechos por cada perticipante, puedo organizar de una mejor
+forma la planificacion de la siguiuente version.
+sin esta version nustros proyectos podrian
+persder su rumbo, tambien podria perder elementos importantes y no poder recuperarlos,
+asi mismo las versiones del proyecto podrian terjiversarse en el proseso.
+git es como ese seguro que nos permite hacer cambios controlados y desaserlos
+cuando la situacion lo requiera.
+una de las funciones mas importantesde git es que puedo hacer ramificaciones de los repositoriso, 
+lo que se traduce en que un peoyecto se puede trabajar en paralelo y no chocar con el proyecto principal
+me permitira ver quien esquive lo que se traduce en menos caos en un proyecto, mas productividad
+al tener un control de los cambien realizado por los colavoradores, puedo preguntar al autor de un
+codigo en caso de no entender alguna linea.
