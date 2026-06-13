@@ -1,0 +1,7 @@
+POST http://localhost:3000/registro
+Content-Type: application/json
+
+{
+    "nombre": "Angel",
+    "mensaje": "hola mundo"
+}
