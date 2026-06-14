@@ -1,0 +1,5 @@
+1. No exponer datos personales: Minimizar la recolección, anonimizar cuando sea posible y mostrar solo lo necesario a los usuarios.
+2. Proteger credenciales: Almacenar contraseñas con hashing seguro, usar gestores de secretos y rotar tokens/credenciales periódicamente.
+3. Usar conexiones seguras: Forzar HTTPS/TLS, habilitar HSTS y cifrar tráfico y datos sensibles en tránsito y en reposo.
+4. Registrar accesos: Mantener logs de autenticación y acciones críticas, monitorear y alertar sobre patrones anómalos.
+5. Limitar acceso a información sensible: Aplicar el principio de menor privilegio, controles de rol y separación de entornos (desarrollo/producción).
