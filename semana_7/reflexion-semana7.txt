@@ -1,0 +1,8 @@
+En la semana 7 aprendí que los arrays son útiles para guardar información en memoria mientras el servidor está activo.
+Comprendí que POST sirve para registrar datos nuevos y que GET se usa para consultar toda la información almacenada.
+Al trabajar con reportes ciudadanos, vi cómo se crean objetos con tipo y descripción y se agregan a un array.
+También aprendí que los datos guardados en memoria no son permanentes y desaparecen si el servidor se reinicia.
+Esto me ayudó a entender la diferencia entre almacenamiento temporal y bases de datos.
+El proceso de probar con POST y GET me permitió ver la ruta completa de grabar y consultar reportes.
+Aprendí a pensar en la API como un servicio que recibe peticiones y responde con JSON.
+La experiencia refuerza la importancia de validar y mostrar claramente los datos en la aplicación.

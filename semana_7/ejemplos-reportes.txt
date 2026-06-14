@@ -1,0 +1,7 @@
+Ejemplo 1:
+Tipo: alumbrado público
+Descripción: La farola de la esquina de la avenida principal está apagada desde hace varios días. Es peligroso caminar de noche.
+
+Ejemplo 2:
+Tipo: limpieza urbana
+Descripción: Hay acumulación de basura en la plaza central y los contenedores están desbordados. Esto genera mal olor y puede atraer plagas.

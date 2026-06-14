@@ -1,0 +1,7 @@
+Para probar la API se puede usar POST para agregar reportes y GET para consultarlos.
+Al enviar POST /reportes con un reporte válido, el servidor lo guarda en el array de memoria.
+Luego se hace GET /reportes para ver todos los reportes registrados.
+Si el servidor tiene datos, GET devuelve un array con objetos de reporte.
+Si no hay reportes, GET devuelve [].
+Esto muestra qué sucede al consultar reportes: el servidor responde con el estado actual del array almacenado en memoria.
+No se usa base de datos; los datos se pierden al reiniciar el servidor.

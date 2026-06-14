@@ -1,0 +1,13 @@
+Para probar el registro de datos se usa POST en la ruta /reportes.
+Se envía un JSON con las propiedades "tipo" y "descripcion".
+Ejemplo de POST:
+{
+  "tipo": "bache",
+  "descripcion": "Bache grande en la acera, peligro para peatones"
+}
+El servidor guarda el reporte en el array de memoria y responde con un mensaje de confirmación.
+Al consultar reportes con GET en /reportes, el servidor devuelve el contenido actual del array.
+Si no hay reportes registrados, GET devuelve un arreglo vacío [] y no produce errores.
+Cada consulta GET solo lee los datos; no modifica ni borra el array.
+Los datos se almacenan solo mientras el servidor está encendido: al reiniciarlo, el array se vacía.
+Esto demuestra que la API usa memoria temporal y que POST y GET funcionan correctamente.
