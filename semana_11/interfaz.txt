@@ -1,0 +1,201 @@
+INTERFAZ DE USUARIO - PLATAFORMA COMUNITARIA DE VEEDURÍA
+
+
+
+La interfaz será simple, intuitiva y accesible para ciudadanos de diferentes niveles de 
+experiencia digital. Estará organizada en secciones claras que permitan reportar incidencias, 
+ver el estado de reportes y participar en la veeduría comunitaria de forma segura.
+
+
+SECCIONES PRINCIPALES DE LA INTERFAZ
+
+1. SECCIÓN: CREAR NUEVO REPORTE
+
+Ubicación: Parte superior central de la página (botón destacado o pestaña principal)
+
+Descripción:
+La interfaz tendría una sección para crear una nueva incidencia comunitaria con campos 
+claramente identificados. El formulario incluiría:
+
+Campos del formulario:
+- Título: campo de texto para resumir la incidencia
+- Categoría: menú desplegable (Corrupción, Negligencia, Irregularidad, Otro)
+- Descripción detallada: área de texto grande para explicar lo sucedido
+- Zona afectada: campo de selección de barrio o sector
+- Fecha de la incidencia: selector de fecha
+- Fotos: botón para cargar evidencia visual (opcional)
+- Botón "Enviar reporte": acción principal en color destacado
+- Botón "Cancelar": para limpiar el formulario
+
+Validaciones:
+- Todos los campos obligatorios deben estar completos
+- Las fotos no deben contener información privada de personas
+- Se mostrará un mensaje de confirmación al enviar
+
+
+
+2. SECCIÓN: VISTA DE REPORTES DISPONIBLES (FEED)
+
+Ubicación: Centro de la página, debajo del formulario o en pestaña secundaria
+
+Descripción:
+Una lista de todas las incidencias reportadas por la comunidad, mostrando solo información 
+pública y segura. Los reportes se mostrarán en orden de prioridad y fecha más reciente.
+
+Estructura de cada tarjeta de reporte:
+┌──────────────────────────────────  ────┐
+│ INCIDENCIA - PRIORIDAD ALTA            │
+├──────────────────────────────────  ────┤
+│ ID: #REP-2024-7541                     │
+│ Título: "Irregularidad en contratación"│
+│ Zona: Barrio Centro                    │
+│ Fecha: 2024-01-15                      │
+│ Estado: En verificación                │
+│                                        │
+│ Descripción breve:                     │
+│ "Se detectó proceso de contratación..."│
+│                                        │
+│ Vistas: 42     Apoyos: 18              │
+│                                        │
+│ [VER DETALLES] [APOYAR]                │
+└────────────────────────────────────────┘
+
+Información mostrada (PÚBLICA Y SEGURA):
+- ID único del reporte (anónimo)
+- Título y descripción breve
+- Categoría del problema
+- Zona geográfica (sin dirección exacta)
+- Fecha de reporte
+- Estado actual (pendiente, verificando, confirmado, resuelto)
+- Contador de vistas
+- Contador de apoyos
+
+Información NUNCA mostrada (PROTEGIDA):
+- Nombre del reportante
+- Documento de identidad
+- Teléfono o correo del reportante
+- Dirección exacta
+- Fotos con rostros identificables
+
+
+
+3. SECCIÓN: BOTÓN PARA APOYAR UN REPORTE
+
+Ubicación: Dentro de cada tarjeta de reporte
+
+Descripción:
+Cada reporte tendría un botón "Apoyar esta causa" que permite a otros ciudadanos registrar 
+su respaldo. El botón sería simple y claro.
+
+Estructura del botón:
+[✓ APOYAR] (color verde/destacado)
+
+Comportamiento:
+- Al hacer clic, registra el apoyo (sin guardar datos personales)
+- El botón cambia a estado "Ya apoyaste" con checkmark
+- Se actualiza el contador en tiempo real
+- Se muestra un mensaje de confirmación breve
+
+
+
+4. CONTADOR DE APOYOS
+
+Ubicación: Junto al botón de apoyo, en cada tarjeta
+
+Descripción:
+Un indicador visual que muestra cuántas personas han apoyado cada reporte. Es importante 
+para ver qué incidencias tienen mayor resonancia comunitaria.
+
+Formato visual:
+┌────────────────┐
+│ Apoyos: 18     │
+│ Vistas: 42     │
+└────────────────┘
+
+Actualizaciones:
+- Se actualiza en tiempo real cuando alguien apoya
+- Muestra números redondeados (18, 42, 100+)
+- No muestra identidad de quien apoyó
+- Permite ordenar reportes por cantidad de apoyos
+
+
+
+5. FILTROS Y ORDENAMIENTO
+
+Ubicación: Barra superior de la lista de reportes
+
+Opciones de filtro:
+- Por categoría: Corrupción, Negligencia, Irregularidad
+- Por estado: Pendiente, Verificando, Confirmado, Resuelto
+- Por zona: Selector de barrio/sector
+- Por prioridad: Alta, Media, Baja
+
+Opciones de ordenamiento:
+- Más reciente primero
+- Mayor cantidad de apoyos
+- Mayor prioridad
+- Más vistas
+
+
+
+6. PANEL DE ESTADO DEL REPORTE
+
+Ubicación: Cuando un ciudadano hace clic en "Ver detalles"
+
+Descripción:
+Una vista detallada del reporte que muestra el progreso de seguimiento de forma segura.
+
+Información mostrada:
+- Timeline visual del reporte (creado → verificando → confirmado → resuelto)
+- Fecha de cada actualización
+- Resumen de hallazgos (sin exponer investigadores)
+- Estado actual
+- Historial de cambios
+- Botón para agregar más evidencia
+
+Ejemplo de timeline:
+[2024-01-15] Reporte registrado → 
+[2024-01-16] Equipo inició verificación → 
+[2024-01-18] Incidencia confirmada → 
+[Pendiente] Resolución
+
+
+
+7. DISEÑO Y USABILIDAD
+
+Principios de diseño:
+- Interfaz limpia sin información privada
+- Colores claros (verde para acciones, rojo para alertas, gris para estados)
+- Botones grandes y fáciles de hacer clic en dispositivos móviles
+- Texto legible y en lenguaje sencillo
+- Sin jerga técnica complicada
+- Responsive: funciona en celular, tablet y computadora
+- Accesible: contraste adecuado, botones con etiquetas claras
+
+
+
+8. BARRA DE NAVEGACIÓN PRINCIPAL
+
+Ubicación: Superior
+
+Opciones:
+[Inicio] [ Reportes] [Nuevo Reporte] [ Mi Cuenta] [ Ayuda] [Logout]
+
+Funcionalidades:
+- Inicio: vuelve al feed de reportes
+- Reportes: filtros avanzados
+- Nuevo Reporte: abre formulario
+- Mi Cuenta: ver mis reportes, perfil, actividad
+- Ayuda: preguntas frecuentes y tutoriales
+- Logout: cerrar sesión segura
+
+
+EJEMPLO DE FLUJO DE USUARIO
+
+1. Ciudadano ingresa a la plataforma (login)
+2. Ve feed de reportes activos ordenados por prioridad
+3. Lee 2-3 reportes interesantes y apoya 2 de ellos
+4. Decide crear su propio reporte con categoría, zona y descripción
+5. Envía reporte y recibe confirmación
+6. Puede ver en vivo cómo su reporte aparece en el feed
+7. Recibe notificaciones cuando hay actualizaciones en sus reportes

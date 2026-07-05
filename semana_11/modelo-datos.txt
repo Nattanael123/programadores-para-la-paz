@@ -1,0 +1,100 @@
+PLATAFORMA COMUNITARIA DE VEEDURÍA
+
+
+Entidad: Reporte
+
+Campos principales:
+- id (identificador único)
+- titulo (resumen breve de la incidencia)
+- descripcion (descripción detallada de lo ocurrido)
+- categoria (tipo de incidencia: corrupción, negligencia, irregularidad)
+- zona (área geográfica afectada)
+- fecha_reporte (cuándo se registró)
+- fecha_incidencia (cuándo ocurrió el evento)
+- estado (pendiente_revision, verificando, confirmado, resuelto)
+- prioridad (baja, media, alta, crítica)
+- codigo_ciudadano (identificador anónimo del reportante)
+- fotos_url (URLs seguras de evidencia visual)
+
+Propósito:
+Almacenar los reportes de incidencias que los ciudadanos registran. Esta es la información 
+central que alimenta el sistema de veeduría. Permite documentar, rastrear y dar seguimiento 
+a los problemas comunitarios de forma ordenada y segura.
+
+
+
+Entidad: Seguimiento
+
+Campos principales:
+- id (identificador único)
+- reporte_id (vinculación con el reporte)
+- coordinador_id (quién hace el seguimiento)
+- descripcion_accion (qué se hizo o encontró)
+- fecha_actualizacion (cuándo se realizó)
+- estado_nuevo (nuevo estado del reporte)
+- observaciones (notas del coordinador)
+- evidencia_verificacion (documentación de hallazgos)
+
+Propósito:
+Registrar el historial de acciones que se toman sobre cada reporte. Permite que el equipo 
+coordinador documente qué se investigó, qué se encontró y qué decisiones se tomaron. 
+Crea un rastro auditable de todo el proceso de veeduría.
+
+
+
+Entidad: Participante
+
+Campos principales:
+- id (identificador único)
+- tipo (ciudadano, coordinador, verificador, admin)
+- email_encriptado (contacto protegido)
+- telefono_encriptado (contacto protegido)
+- fecha_registro (cuándo se unió a la plataforma)
+- estado (activo, inactivo, suspendido)
+- zona_asignada (área de responsabilidad para coordinadores)
+- reportes_realizados (contador de reportes registrados)
+- ultimas_actividades (timestamp de última interacción)
+
+Propósito:
+Gestionar los usuarios del sistema de forma segura. Diferencia roles para dar permisos 
+apropiados (ciudadanos solo reportan, coordinadores gestionan, admins controlan todo). 
+Protege datos personales mediante encriptación y mantiene registro de participación.
+
+
+
+
+Entidad: Notificacion
+
+Campos principales:
+- id (identificador único)
+- participante_id (a quién va dirigida)
+- tipo (nueva_incidencia, actualizacion_reporte, alerta_urgente)
+- mensaje (contenido de la notificación)
+- canal (telegram, email, in-app)
+- fecha_envio (cuándo se envió)
+- fecha_lectura (cuándo se leyó, puede ser nula)
+- estado (pendiente, enviada, entregada, no_entregada)
+
+Propósito:
+Centralizar la gestión de notificaciones para coordinadores y ciudadanos. Asegura que 
+las alertas lleguen por el canal correcto en el momento oportuno. Permite rastrear 
+qué comunicaciones fueron entregadas y leídas para garantizar que nadie se pierde información crítica.
+
+
+
+RELACIONES PRINCIPALES ENTRE ENTIDADES
+
+Reporte → Seguimiento (1 a N)
+Un reporte puede tener múltiples actualizaciones de seguimiento.
+
+Participante → Reporte (1 a N)
+Un ciudadano puede crear múltiples reportes.
+
+Participante → Seguimiento (1 a N)
+Un coordinador puede realizar múltiples acciones de seguimiento.
+
+Reporte → Notificacion (1 a N)
+Un reporte puede generar múltiples notificaciones.
+
+Participante → Notificacion (1 a N)
+Un participante puede recibir múltiples notificaciones.
