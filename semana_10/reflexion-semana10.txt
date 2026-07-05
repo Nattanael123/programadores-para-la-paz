@@ -1,0 +1,21 @@
+semana 10 respuestas:
+
+Pregunta 1: b (Una lista priorizada de tareas o funcionalidades por desarrollar)
+Pregunta 2: b (Una forma breve de expresar qué necesita un usuario y para qué lo necesita)
+Pregunta 3: b (Automatizar tareas repetitivas y notificaciones de seguimiento no sensibles)
+Pregunta 4: b (Como canal de coordinación, convocatoria y notificación comunitaria)
+
+reflexion: 
+¿Por qué las metodologías ágiles, la automatización y canales como Telegram pueden ayudar a organizar mejor una comunidad o un proceso de participación ciudadana?
+
+    Las metodologías ágiles permiten que las comunidades se organicen de forma flexible y responda rápidamente a 
+cambios. En lugar de esperar meses para implementar una solución, se puede trabajar por iteraciones cortas, 
+recibir retroalimentación de la comunidad y ajustar el rumbo constantemente. La automatización, por su parte, 
+elimina tareas repetitivas y permite que los coordinadores se enfoquen en lo que realmente importa: el seguimiento 
+y la acción sobre los reportes. Cuando un ciudadano registra una incidencia, la alerta llega automáticamente sin 
+que alguien deba revisar manualmente, haciendo el proceso más eficiente y rápido. Telegram es crucial porque es 
+una herramienta familiar, inmediata y accesible para la mayoría de ciudadanos y coordinadores. Las notificaciones 
+en tiempo real garantizan que nadie se pierda información importante, fortaleciendo la coordinación comunitaria. 
+Juntas, estas tres herramientas crean un ecosistema donde la comunidad puede participar activamente, la información 
+fluye sin demoras, y las decisiones se toman basadas en datos reales y actualizados, transformando la veeduría 
+ciudadana de un proceso lento en uno ágil, transparente y efectivo.

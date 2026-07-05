@@ -1,0 +1,121 @@
+FLUJO N8N Y TELEGRAM
+
+FLUJO DE AUTOMATIZACIÓN: ALERTAS DE REPORTES A COORDINADORES
+
+
+¿QUÉ EVENTO ACTIVA EL FLUJO?
+
+
+Evento: Nuevo reporte de incidencia registrado en la base de datos.
+
+Detalles técnicos:
+- Trigger: Webhook o conexión directa a la base de datos
+- Condición: Cuando un ciudadano completa y envía el formulario de incidencia
+- Validación: El reporte tiene estado "pendiente_revision"
+
+
+¿QUÉ MENSAJE SE ENVIARÍA A TELEGRAM?
+
+Mensaje enviado al grupo o canal de coordinadores:
+
+
+ NUEVA INCIDENCIA REPORTADA
+
+ ID del Reporte: #REP-2024-7541
+ Hora del reporte: 2024-01-15 14:32
+ Zona afectada: [Nombre del barrio/zona]
+ Categoría: [Corrupción / Irregularidad / Negligencia]
+ Resumen: "Irregularidad en contratación pública"
+
+ Prioridad: MEDIA
+
+ Acción: Ingresa al sistema para revisar detalles y asignar equipo de verificación.
+
+
+
+¿QUÉ INFORMACIÓN NO DEBERÍA ENVIARSE POR SEGURIDAD?
+
+
+PROHIBIDO enviar por Telegram:
+
+ DATOS PERSONALES DEL REPORTANTE:
+   - Nombre completo
+   - Documento de identidad (cédula, pasaporte)
+   - Correo electrónico
+   - Número de teléfono
+   - Dirección residencial
+   - Foto o datos biométricos
+
+ DATOS SENSIBLES RELACIONADOS:
+   - Nombres completos de personas involucradas en la incidencia
+   - Direcciones exactas o georeferencias precisas
+   - Números de cuenta bancaria
+   - Información médica o familiar
+   - Credenciales o contraseñas
+
+ INFORMACIÓN TÉCNICA:
+   - Tokens de acceso
+   - Claves de API
+   - Contraseñas del sistema
+   - URLs internas de administración
+
+ EVIDENCIA DIGITAL SENSIBLE:
+   - Fotos que contengan rostros identificables
+   - Videos con información personal
+   - Documentos escaneados con datos completos
+
+
+INFORMACIÓN SEGURA QUE SÍ SE PUEDE ENVIAR:
+
+
+ ID único de reporte (no vinculado a identidad)
+ Categoría general del problema
+ Zona o sector (sin dirección exacta)
+ Hora y fecha del reporte
+ Nivel de prioridad
+ Estado del reporte
+ Enlace seguro al panel de administración
+
+
+ARQUITECTURA DEL FLUJO EN N8N:
+
+1. TRIGGER
+   - Webhook o conexión a BD
+   - Escucha nuevos reportes
+
+2. VALIDACIÓN
+   - Verifica que el reporte esté completo
+   - Confirma que no hay datos prohibidos en el mensaje
+
+3. MAPEO DE DATOS
+   - Extrae solo información permitida
+   - Enmascarar datos sensibles si es necesario
+
+4. MENSAJE SEGURO
+   - Construye mensaje con datos públicos
+   - Incluye solo ID del reporte y enlace a dashboard
+
+5. ENVÍO A TELEGRAM
+   - Envía notificación al grupo de coordinadores
+   - Usa Token de Bot seguro
+
+6. REGISTRO
+   - Guarda que la notificación fue enviada
+   - Log para auditoría
+
+
+EJEMPLO DE FLUJO SEGURO EN N8N:
+
+[Webhook: Nueva incidencia] 
+    ↓
+[Validar datos] 
+    ↓
+[Extraer: ID, zona, categoría, prioridad] 
+    ↓
+[Enmascarar información sensible] 
+    ↓
+[Construir mensaje Telegram] 
+    ↓
+[Enviar a canal coordinadores] 
+    ↓
+[Registrar en auditoría]

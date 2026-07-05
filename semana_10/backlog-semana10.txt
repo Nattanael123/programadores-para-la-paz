@@ -1,0 +1,44 @@
+BACKLOG SEMANA 10 - SOLUCIÓN COMUNITARIA DE VEEDURÍA
+
+
+HISTORIAS DE USUARIO 
+
+1. PRIORIDAD ALTA
+   Como ciudadano quiero registrar una incidencia para dejar evidencia del caso.
+   
+   Descripción: El ciudadano debe poder crear un reporte detallado con descripción, 
+   ubicación, fecha y fotos de la incidencia para documentar los hechos.
+
+
+
+2. PRIORIDAD ALTA
+   Como coordinador quiero recibir una alerta en Telegram para revisar un nuevo reporte.
+   
+   Descripción: El coordinador debe recibir notificaciones en tiempo real cuando se 
+   registre una nueva incidencia para poder dar seguimiento inmediato.
+
+
+
+3. PRIORIDAD MEDIA
+   Como miembro del equipo quiero consultar reportes para hacer seguimiento.
+   
+   Descripción: El equipo debe acceder a un dashboard con filtros por fecha, 
+   ubicación y estado para revisar el progreso de las incidencias.
+
+
+
+4. PRIORIDAD MEDIA
+   Como veedora quiero generar reportes estadísticos para presentar hallazgos a autoridades.
+   
+   Descripción: Necesito exportar datos consolidados con gráficos y análisis 
+   que permitan demostrar patrones de incidencias por zona y tipo.
+
+
+
+5. PRIORIDAD BAJA
+   Como ciudadano quiero ver el estado de mi incidencia para conocer el progreso.
+   
+   Descripción: Poder acceder con un código único para consultar si el reporte 
+   ha sido revisado, verificado o resuelto.
+
+
