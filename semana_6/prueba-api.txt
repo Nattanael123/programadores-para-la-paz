@@ -1,0 +1,9 @@
+La ruta POST /incidencia acepta un JSON con los campos "tipo" y "descripcion".
+El servidor responde con un objeto JSON que confirma la recepción de la incidencia.
+Respuesta esperada:
+{
+  "mensaje": "Incidencia registrada",
+  "tipo": "Iluminación pública",
+  "descripcion": "La comunidad reporta que una lámpara del parque no funciona desde hace varios días."
+}
+Esta respuesta indica que el servidor procesó correctamente el cuerpo de la solicitud y devolvió los mismos datos enviados más un mensaje de confirmación.

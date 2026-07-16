@@ -1,0 +1,24 @@
+Modelo de Datos: Petición en 3 Clics
+
+
+ENTIDAD 1: Causa
+
+Campos:
+- id (Entero / UUID, Llave Primaria): Identificador único de la causa.
+- titulo (Texto): Título corto y descriptivo de la causa social.
+- descripcion (Texto largo): Detalle y fundamentación de la petición.
+- fecha (Fecha/Hora): Momento exacto en el que se creó la causa.
+
+Propósito:
+Esta entidad sirve para registrar y almacenar la información fundamental de cada iniciativa o petición creada por los ciudadanos. Es el eje central del sistema, ya que contiene el "qué" y el "por qué" de la movilización social, permitiendo que otros usuarios la encuentren y la lean.
+
+ENTIDAD 2: Apoyo
+
+Campos:
+- id (Entero / UUID, Llave Primaria): Identificador único del registro de apoyo.
+- causa_id (Entero / UUID, Llave Foránea): Referencia al 'id' de la Causa a la que se apoya.
+- nombre (Texto): Nombre del ciudadano que apoya la causa.
+- fecha (Fecha/Hora): Momento exacto en el que el usuario dio su apoyo.
+
+Propósito:
+Esta entidad sirve para registrar de manera individual cada voto, firma o muestra de respaldo que un ciudadano otorga a una causa específica. Al estar vinculada a través de 'causa_id', permite contabilizar de forma precisa cuántos apoyos acumula cada petición, validar la legitimidad de las firmas y generar la lista definitiva de firmantes para el documento PDF final.

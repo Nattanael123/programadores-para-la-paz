@@ -1,0 +1,38 @@
+@Nattanael123 ➜ /workspaces/programadores-para-la-paz (codespace-special-zebra-jjrwpxjj7x35xj) $ curl -i -X POST http://localhost:3000/registro -H "Content-Type: application/json" -d '{"nombre":"Angel","mensaje":"hola mundo"}'
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 68
+ETag: W/"44-toqlHmIKRBD8TnMwqIHRuhkDk/g"
+Date: Sat, 13 Jun 2026 03:29:27 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"estado":"Datos recibidos","nombre":"Angel","mensaje":"hola mundo"}
+
+
+
+$ curl -i -X POST http://localhost:3000/incidencia -H "Content-Type: application/json" -d '{"tipo":"Iluminación pública","descripcion":"La comunidad reporta que una lámpara del parque no funciona desde hace varios días."}'
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 168
+ETag: W/"a8-p1+b9wp3CCKbCHzSLsH3eBDS630"
+Date: Sat, 13 Jun 2026 03:37:46 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"mensaje":"Incidencia registrada","tipo":"Iluminación pública","descripcion":"La comunidad reporta que una lámpara del parque no funciona desde hace varios días."}
+
+ $  curl -i -X POST http://localhost:3000/incidencia -H "Content-T
+ype: application/json" -d '{"tipo":"Iluminación pública","descripcion":"La comunidad reporta que una lámpara del parque no funciona desde hace varios días."}'
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 168
+ETag: W/"a8-p1+b9wp3CCKbCHzSLsH3eBDS630"
+Date: Sat, 13 Jun 2026 03:39:20 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"mensaje":"Incidencia registrada","tipo":"Iluminación pública","dea comunidad reporta que una lámpara del parque no funciona desde ha

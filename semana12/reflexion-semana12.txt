@@ -1,0 +1,9 @@
+Durante este curso comprendí que la tecnología es un puente fundamental para amplificar la voz de las comunidades.
+Herramientas sencillas como "Petición en 3 Clics" demuestran que reducir las barreras de acceso es clave para la participación.
+Aprendí a estructurar flujos de trabajo claros que transforman la voluntad colectiva en acciones concretas y formales.
+El diseño de modelos de datos simples nos enseña a organizar la información comunitaria de manera eficiente y escalable.
+Además, entendí el rol crucial de la automatización con herramientas como n8n y Telegram para mantener informada a la gente.
+Esto no solo dinamiza los procesos de convocatoria, sino que genera transparencia y cercanía entre los ciudadanos.
+No obstante, el aprendizaje más valioso ha sido la importancia de la privacidad y la seguridad de los datos personales.
+Minimizar los datos que recolectamos protege a los participantes y fortalece la confianza y legitimidad de cualquier iniciativa.
+En definitiva, la tecnología bien aplicada no reemplaza el activismo presencial, sino que lo potencia, formaliza y democratiza.

@@ -1,0 +1,14 @@
+Sistema operativo
+El sistema operativo es la base que gestiona el hardware y los recursos del servidor. Permite que Node.js se ejecute y controla procesos, memoria, redes y los archivos necesarios para la aplicación.
+
+Node.js
+Node.js es el entorno de ejecución que interpreta y ejecuta el código JavaScript en el servidor. Proporciona las APIs y el motor para recibir solicitudes HTTP y responder desde la aplicación.
+
+Aplicación `server.js`
+`server.js` es el archivo que define la lógica del servidor y las rutas disponibles. Contiene el código para manejar las peticiones, enviar respuestas y poner el servidor a escuchar en un puerto.
+
+Puerto
+El puerto es el número que identifica el punto de comunicación del servidor dentro de la máquina. Con `3000`, las solicitudes HTTP se dirigen correctamente al servidor que está escuchando en ese puerto.
+
+Logs
+Los logs son los mensajes que registra el servidor mientras se ejecuta. Permiten ver eventos importantes, como el inicio del servidor y errores, lo que facilita la depuración y el monitoreo.

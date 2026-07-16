@@ -1,0 +1,11 @@
+mi sistema actualmente es: Linux codespaces-00485f 6.8.0-1052-azure #58~22.04.1-Ubuntu SMP Thu Mar 26 05:02:21 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+or qué es útil conocer información del sistema al administrar un servidor
+
+Salud y disponibilidad: Permite monitorear uso de CPU, memoria y disco para evitar caídas.
+Resolución de problemas: Los logs, procesos y métricas del sistema ayudan a identificar y aislar fallos rápidamente.
+Rendimiento: Conocer cuellos de botella posibilita ajustar configuraciones y dimensionar recursos.
+Seguridad: Información de puertos, usuarios y procesos revela actividad sospechosa y vulnerabilidades.
+Capacidad y escalado: Datos de uso histórico sirven para planificar escalado y balanceo de carga.
+Compatibilidad: Verificar versiones de SO, librerías y dependencias evita errores por incompatibilidades.
+Automatización: Permite crear alertas y tareas automáticas (backups, reinicios, limpieza) basadas en métricas.
+Cumplimiento: Registrar y auditar información del sistema ayuda a cumplir políticas y normativas.

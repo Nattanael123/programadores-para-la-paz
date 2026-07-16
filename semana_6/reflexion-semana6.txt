@@ -1,0 +1,19 @@
+Al implementar una nueva ruta POST en el servidor,
+pude practicar cómo recibir datos JSON desde el 
+cliente y devolver una respuesta estructurada.
+Esto refuerza la idea de que el backend y el 
+frontend trabajan juntos mediante contratos
+claros de entrada y salida. Además, aprendí
+que Express simplifica el manejo de rutas y 
+el análisis de cuerpos JSON con `express.json()`.
+La sección de incidencias me permite simular 
+casos reales de reportes comunitarios. Para mi
+es útil ver que el servidor no solo
+recibe datos, sino que también valida implícitamente 
+su estructura por el hecho de utilizar campos específicos. 
+Probé la ruta con `curl` y confirmé que el servidor 
+respondió con un mensaje de confirmación. Ese tipo de
+pruebas manuales ayuda a detectar rápidamente errores 
+de comunicación. Finalmente, trabajar con rutas diferentes
+en la misma aplicación demuestra cómo un servidor puede 
+exponer múltiples servicios de manera ordenada.

@@ -1,0 +1,53 @@
+ANÁLISIS DE PRIORIDADES Y DEFINICIÓN DE TERMINADO
+
+¿QUÉ 2 TAREAS DEL BACKLOG HARÍAS PRIMERO?
+
+1. Como ciudadano quiero registrar una incidencia para dejar evidencia del caso.
+
+2. Como coordinador quiero recibir una alerta en Telegram para revisar un nuevo reporte.
+
+
+¿POR QUÉ SON LAS MÁS IMPORTANTES?
+
+
+Estas dos historias de usuario son las más críticas porque:
+
+- La primera (Registro de incidencias) es el corazón del sistema. Sin la capacidad 
+  de que los ciudadanos registren incidencias, no hay datos que procesar ni información 
+  que veeduría pueda supervisar. Es la funcionalidad más fundamental.
+
+- La segunda (Alertas en Telegram) es esencial para que el coordinador actúe en tiempo real. 
+  Si las alertas no llegan de inmediato, se pierde la oportunidad de respuesta rápida 
+  y la efectividad de la veeduría se ve comprometida. Esto hace que el sistema sea activo 
+  y no pasivo.
+
+Juntas crean el ciclo mínimo viable: ciudadano reporta → coordinador se entera → 
+coordinador actúa. Sin esto, el sistema no funciona.
+
+
+¿QUÉ SIGNIFICA PARA TI QUE UNA TAREA ESTÉ "TERMINADA"?
+
+Una tarea está "TERMINADA" cuando cumple con los siguientes criterios:
+
+1. FUNCIONA
+   - El código ejecuta sin errores.
+   - Las funciones principales hacen lo que prometen.
+   - El usuario puede completar el flujo de forma intuitiva.
+
+2. FUE PROBADA
+   - Se realizaron pruebas manuales con casos normales y casos extremos.
+   - Se verifica que funciona en diferentes navegadores o dispositivos.
+   - Se validó con usuarios reales cuando es posible.
+
+3. QUEDÓ REGISTRADA EN GIT
+   - El código está en un commit con mensaje claro.
+   - La rama se integró al proyecto principal (merge a main/develop).
+   - Hay un registro histórico del cambio que se puede rastrear.
+
+4. DOCUMENTACIÓN ACTUALIZADA (Criterio Adicional)
+   - El cambio está documentado (README, comentarios en código o wiki).
+   - Otros desarrolladores pueden entender qué se hizo y cómo usarlo.
+
+5. REVISADA Y APROBADA
+   - Pasó la revisión de código de otro compañero.
+   - Se resolvieron los comentarios y sugerencias de mejora.

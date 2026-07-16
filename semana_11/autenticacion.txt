@@ -1,0 +1,14 @@
+AUTENTICACIÓN EN APLICACIONES 
+El login permite identificar a un usuario antes de darle acceso a ciertas funciones. Es el mecanismo 
+que verifica la identidad de una persona mediante credenciales (usuario y contraseña) para crear una 
+sesión segura. Sin login, la aplicación no sabría quién está usando el sistema ni qué permisos tiene.
+
+Algunas rutas deben estar protegidas porque pueden contener información privada, registros internos 
+o acciones que no deberían estar disponibles para cualquier persona. Si estas rutas no estuvieran protegidas, 
+usuarios no autorizados podrían acceder a datos confidenciales, modificar información crítica, eliminar 
+reportes o interferir en el proceso de veeduría.
+
+No se deben exponer públicamente contraseñas, documentos de identidad, teléfonos, direcciones, tokens, 
+claves de API ni datos sensibles de la comunidad. Esta información debe estar encriptada en la base de datos, 
+transmitirse solo por conexiones seguras, y ser visible únicamente para usuarios autenticados con permisos 
+específicos para proteger la privacidad y seguridad del sistema.

@@ -1,0 +1,25 @@
+Automatización del Sistema: Notificación de Meta Alcanzada en Telegram (vía n8n)
+
+1. EVENTO QUE ACTIVA LA AUTOMATIZACIÓN 
+- Evento: Una causa activa alcanza su meta establecida de apoyos (por ejemplo, llega a los 100 apoyos registrados en la base de datos).
+- Funcionamiento en n8n: Un nodo "Cron" o un "Webhook" de la base de datos consulta periódicamente las causas. Cuando el conteo de la entidad 'Apoyo' asociada a una 'Causa' iguala o supera el límite, se dispara el flujo de n8n hacia el nodo de Telegram.
+
+2. MENSAJE ENVIADO (Canal: Grupo/Canal de Telegram Público)
+
+" ¡Meta Alcanzada! 
+
+La causa social \"[Título de la Causa]\" ha logrado reunir los apoyos necesarios para formalizar la petición. 
+
+Detalle de la iniciativa: [Enlace público a la Causa]
+ Total de apoyos recolectados: [Total de Apoyos]
+
+El sistema está generando el documento PDF oficial para ser remitido a la autoridad correspondiente. ¡Gracias a todos los que sumaron su firma!"
+
+
+3. INFORMACIÓN QUE NO DEBE ENVIARSE POR SEGURIDAD (Privacidad y Protección de Datos)
+
+Para garantizar la privacidad (cumplimiento de normativas de protección de datos como GDPR o leyes locales), bajo ninguna circunstancia se debe incluir en el mensaje:
+- El listado de nombres o apellidos de las personas que firmaron.
+- Correos electrónicos, números de teléfono o identificaciones (cédulas, DNI, pasaportes).
+- Direcciones físicas, ubicaciones o direcciones IP de los usuarios.
+- Comentarios de apoyo que contengan información personal o sensible de los firmantes.

@@ -1,0 +1,15 @@
+buenas tardes, respecto a la soberanía tecnológica tenemos que es fundamental para que las comunidades
+e iniciativas ciudadanas no dependan de infraestructuras cerradas 
+o privativas que condicionen sus datos y objetivos. Al utilizar
+herramientas como Node.js, basado en tecnologías abiertas, los
+colectivos pueden adaptar el software a sus necesidades específicas,
+garantizando la transparencia y la seguridad de su información.
+Esta autonomía permite que las soluciones sean sostenibles en el tiempo,
+ya que la comunidad mantiene el control sobre el código y su evolución 
+sin costos de licenciamiento restrictivos. Además, el ecosistema
+de código abierto fomenta la colaboración global, permitiendo que innovaciones
+locales se fortalezcan con el conocimiento de una red mundial. En última
+instancia, construir tecnología propia con estándares abiertos democratiza
+el acceso a la innovación y empodera a la ciudadanía frente a los monopolios
+digitales.
+Muchas Gracias
