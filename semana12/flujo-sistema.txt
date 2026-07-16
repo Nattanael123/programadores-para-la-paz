@@ -1,0 +1,8 @@
+Flujo del Sistema: Petición en 3 Clics
+
+1. Creación de la Causa: Un ciudadano accede a la plataforma, completa un formulario sencillo con el título, descripción y destinatario de su demanda social, y publica la causa.
+2. Registro en Base de Datos: El sistema registra la causa en la base de datos, le asigna un identificador único y genera una página pública para que otros usuarios puedan visualizarla y compartirla.
+3. Difusión y Recolección de Apoyos: El ciudadano comparte el enlace de la causa y otros miembros de la comunidad ingresan para expresar su apoyo de manera rápida con un solo clic.
+4. Conteo y Validación en Tiempo Real: El sistema registra y acumula cada apoyo recibido en tiempo real, aplicando validaciones de identidad para asegurar que cada voto sea único y legítimo.
+5. Generación del Documento PDF: Una vez que la causa alcanza la meta de apoyos establecida, el sistema recopila el listado de firmantes y genera de forma automática un documento PDF formal de petición estructurado legalmente.
+6. Notificación y Envío a la Autoridad: El sistema notifica al creador de la causa y envía formalmente el documento PDF generado a la entidad, institución o autoridad correspondiente para su respectivo trámite.
